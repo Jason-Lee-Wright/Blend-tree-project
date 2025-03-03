@@ -113,12 +113,12 @@ TextureImporter:
       name: ACgarRight_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 27
-        width: 13
-        height: 18
+        x: 0
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: ACgarRight_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 26
-        width: 13
-        height: 18
+        x: 24
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: ACgarRight_2
       rect:
         serializedVersion: 2
-        x: 5
-        y: 3
-        width: 13
-        height: 18
+        x: 0
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: ACgarRight_3
       rect:
         serializedVersion: 2
-        x: 29
-        y: 2
-        width: 13
-        height: 18
+        x: 24
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

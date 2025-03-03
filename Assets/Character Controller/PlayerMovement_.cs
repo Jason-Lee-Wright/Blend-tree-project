@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 currentMoveDirection = Vector2.zero; // Store the current move direction
 
+    public Animator AnimationP;
+
     void Start()
     {
         // actually collectiong the Character controller attached to the player
@@ -48,6 +50,21 @@ public class PlayerMovement : MonoBehaviour
     {
         // Update the current move direction when the event is triggered
         currentMoveDirection = InputVector;
+        AnimationCont();
+    }
+
+    void AnimationCont()
+    {
+        if (currentMoveDirection == Vector2.zero)
+        {
+            AnimationP.SetBool("Running", false);
+        }
+        else
+        {
+            AnimationP.SetBool("Running", true);
+            AnimationP.SetFloat("MovementX", currentMoveDirection.x); 
+            AnimationP.SetFloat("MovementY", currentMoveDirection.y);
+        }
     }
 
     void HandleMovement()
