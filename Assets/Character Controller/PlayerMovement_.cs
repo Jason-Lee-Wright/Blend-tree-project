@@ -57,11 +57,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (currentMoveDirection == Vector2.zero)
         {
-            AnimationP.SetBool("Running", false);
+            AnimationP.SetBool("Walking", false);
         }
         else
         {
-            AnimationP.SetBool("Running", true);
+            AnimationP.SetBool("Walking", true);
             AnimationP.SetFloat("MovementX", currentMoveDirection.x); 
             AnimationP.SetFloat("MovementY", currentMoveDirection.y);
         }
@@ -77,10 +77,14 @@ public class PlayerMovement : MonoBehaviour
         if (IsSprinting == false)
         {
             IsSprinting = true;
+
+            AnimationP.speed = 2;
         }
         else if (IsSprinting ==  true)
         {
             IsSprinting = false;
+
+            AnimationP.speed = 1;
         }
     }
    
